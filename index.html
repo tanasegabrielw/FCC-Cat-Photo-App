@@ -9,28 +9,43 @@
 </body>
 </head>
 <body>
+    <div class="header">
     <h1>Cat Photo App</h1>
+</div>
     <h2>Cat Photos</h2>
     <p>See more <a href="cat-gallery.html">cat photos</a> in our gallery.</p>
     <img src="images/cat-pic1.jpg" alt="Cat Pic">
     <h2>Cat lists</h2>
-    <h3>Things cats love:</h3>
+
+    <div class="listBox">
+
+    <div class="box">
+        
+        <h3>Things cats love</h3>
     <ul>
+
         <li><a href="#" onclick = showSanta() id="btnImgSnt">Santa Clause</a></li>
         <a href = "#" onclick = redoShowSanta()><img id="imageSnt" src="images/santa-cat.jpg" alt="Santa and Cats"></a>
         <li><a href="#" onclick = showDog() id="btnImgDog">Dogs</a></li>
         <a href = "#" onclick = redoShowDog()><img id="imageDog" src="images/dog-cat.jpeg" alt="Dogs and Cats"></a>
         <li><a href="#" onclick = showClean() id="btnImgClean">Cleaning</a></li>
         <a href = "#" onclick = redoShowClean()><img id="imageClean" src="images/cleaning-cat.jpg" alt="Cat Cleaning"></a>
+
     </ul>
-<h3>Top 3 things cats hate:</h3>
+</div>
+<div class="box">
+    <h3>Top 3 things cats hate</h3>
 
 <ol>
+
 <li>Computer Games</li>
 <li>Tasty Vegan Falafel</li>
 <li>Other Cuter Cats</li>
 
 </ol>
+</div>
+</div>
+
 <figure>
 <img src="images/cutest-cat-gifs-kitten-heads.gif" alt="Cute cats gif">
 <figcaption> Cats <strong>HATE</strong> other cuter cats.</figcaption>
@@ -54,7 +69,7 @@
 <button type="submit">Submit</button>
 </form>
 
-<footer>No Copyright - <a href="https://www.freecodecamp.org/news/about/"> freeCodeCamp.org</a> </footer>
+<footer>No Copyright - <a target="blank" rel="noopener" href="https://www.freecodecamp.org/news/about/"> freeCodeCamp.org</a> </footer>
 
 </html>
 

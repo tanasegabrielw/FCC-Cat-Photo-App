@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+ }
 body{
 background-image: linear-gradient(lightblue,lightyellow);
 background-repeat:no-repeat;
+font-family:"Roboto",Times, serif ;
+border:5px solid skyblue;
+width: 500px;
+height: auto;
+text-align: center;
 }
 
 img {
@@ -18,4 +29,55 @@ img {
 
 li{
     list-style: none;
+    background-color: palevioletred;
+    border-radius:15%;
+    border:3px solid lightyellow;
+    padding:10px;
+    margin-bottom: 3px;
+    color:purple;
+
+}
+
+ul, ol{
+padding-left: 0;
+}
+
+.listBox {
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.box {
+
+padding-right: 5px;
+border: 3px solid lightpink;
+margin-right: 5px;
+
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.box a:hover{
+background-color: palevioletred;
+color: lightyellow;
+font-weight:bold;
+}
+
+.box img:hover{
+
+    border:5px solid purple;
+
+}
+
+.header{
+
+    background-color:lightseagreen;
+    color:white;
+    display: flex;
+    
 }

@@ -3,7 +3,8 @@ function showSanta() {
     document.getElementById('imageSnt')
         .style.display = "block";
     document.getElementById('btnImgSnt')
-        .style.display = "none";
+        
+       
 }
 
 function redoShowSanta()
@@ -19,7 +20,7 @@ function showDog() {
     document.getElementById('imageDog')
         .style.display = "block";
     document.getElementById('btnImgDog')
-        .style.display = "none";
+        
 }
 
 function redoShowDog()
@@ -35,7 +36,7 @@ function showClean() {
     document.getElementById('imageClean')
         .style.display = "block";
     document.getElementById('btnImgClean')
-        .style.display = "none";
+        
 }
 
 function redoShowClean()
