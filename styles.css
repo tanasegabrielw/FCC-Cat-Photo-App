@@ -8,3 +8,14 @@ img {
     width: 200px;
     height: auto;
 }
+
+#imageSnt, #imageDog, #imageClean {
+
+    display: none;
+    width: 200px;
+    height:auto;
+}
+
+li{
+    list-style: none;
+}

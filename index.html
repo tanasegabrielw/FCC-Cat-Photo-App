@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Photo App</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="code.js"></script>
+</body>
 </head>
 <body>
     <h1>Cat Photo App</h1>
     <h2>Cat Photos</h2>
     <p>See more <a href="cat-gallery.html">cat photos</a> in our gallery.</p>
-    <img src="images/cat-pic1.jpg">
+    <img src="images/cat-pic1.jpg" alt="Cat Pic">
     <h2>Cat lists</h2>
     <h3>Things cats love:</h3>
     <ul>
-        <li>Santa Clause</li>
-        <li>Dogs</li>
-        <li>Cleaning products</li>
+        <li><a href="#" onclick = showSanta() id="btnImgSnt">Santa Clause</a></li>
+        <a href = "#" onclick = redoShowSanta()><img id="imageSnt" src="images/santa-cat.jpg" alt="Santa and Cats"></a>
+        <li><a href="#" onclick = showDog() id="btnImgDog">Dogs</a></li>
+        <a href = "#" onclick = redoShowDog()><img id="imageDog" src="images/dog-cat.jpeg" alt="Dogs and Cats"></a>
+        <li><a href="#" onclick = showClean() id="btnImgClean">Cleaning</a></li>
+        <a href = "#" onclick = redoShowClean()><img id="imageClean" src="images/cleaning-cat.jpg" alt="Cat Cleaning"></a>
     </ul>
-</body>
+
 </html>
 
