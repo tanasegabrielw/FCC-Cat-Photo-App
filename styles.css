@@ -1,0 +1,10 @@
+body{
+background-image: linear-gradient(lightblue,lightyellow);
+background-repeat: no-repeat;
+}
+
+img {
+
+    width: 200px;
+    height: auto;
+}
