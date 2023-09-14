@@ -3,10 +3,9 @@
 * {
     margin: 0px;
     padding: 0px;
+    line-height: 30px;
  }
 body{
-background-image: linear-gradient(lightblue,lightyellow);
-background-repeat:no-repeat;
 font-family:"Roboto",Times, serif ;
 border:5px solid skyblue;
 width: 500px;
@@ -78,6 +77,29 @@ font-weight:bold;
 
     background-color:lightseagreen;
     color:white;
-    display: flex;
+    padding: 10px 5px;
     
+}
+
+.bodyBox {
+
+background-image: linear-gradient(lightblue,lightyellow);
+background-repeat:no-repeat;
+}
+
+.catPhotosBox {
+ 
+    padding: 10px;
+    border-bottom: 5px solid skyblue;
+}
+
+.catForm{
+
+    padding:10px;
+    border-top: 5px solid skyblue;
+}
+
+.catLists{
+
+    padding: 10px;
 }
