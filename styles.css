@@ -57,14 +57,16 @@ margin-right: 5px;
     
 }
 
-a{
+.box a{
     text-decoration: none;
+    color:yellow;
+    font-weight: bold;
 }
 
 .box a:hover{
 background-color: palevioletred;
-color: lightyellow;
-font-weight:bold;
+color:purple;
+font-weight:bolder;
 }
 
 .box img:hover{
@@ -103,3 +105,18 @@ background-repeat:no-repeat;
 
     padding: 10px;
 }
+
+.catPhotosBox a {
+
+    text-decoration: none;
+    color:purple;
+    font-weight: bold;
+
+}
+
+.catPhotosBox a:hover {
+
+    font-weight: bolder;
+    color:yellow;
+
+} 
